@@ -8,6 +8,7 @@ C:\Users\praveen.nelapati\FirstApp\obj\Debug\net11.0\FirstApp.GeneratedMSBuildEd
 C:\Users\praveen.nelapati\FirstApp\obj\Debug\net11.0\FirstApp.AssemblyInfoInputs.cache
 C:\Users\praveen.nelapati\FirstApp\obj\Debug\net11.0\FirstApp.AssemblyInfo.cs
 C:\Users\praveen.nelapati\FirstApp\obj\Debug\net11.0\FirstApp.csproj.CoreCompileInputs.cache
+C:\Users\praveen.nelapati\FirstApp\obj\Debug\net11.0\FirstApp.sourcelink.json
 C:\Users\praveen.nelapati\FirstApp\obj\Debug\net11.0\FirstApp.dll
 C:\Users\praveen.nelapati\FirstApp\obj\Debug\net11.0\refint\FirstApp.dll
 C:\Users\praveen.nelapati\FirstApp\obj\Debug\net11.0\FirstApp.pdb

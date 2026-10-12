@@ -1,6 +1,7 @@
-using System;
-class A{
-    static void Main(){
-        Console.WriteLine("Hello world");
+class A
+{
+    static void Main()
+    {
+        B.hello();
     }
 }

@@ -2,7 +2,7 @@
 
 class Program
 {
-    static void Main()
+    static void Job()
     {
         Console.Write("Enter your Year: ");
         int s= Convert.ToInt32(Console.ReadLine());
@@ -22,7 +22,7 @@ class Program
                 Console.WriteLine("You have less cgpa");
             }
         }else{
-            Console.WriteLine("Your not the final year student");
+            Console.WriteLine("Your not the final year studen");
         }
         
         
