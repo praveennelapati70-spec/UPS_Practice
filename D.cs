@@ -5,7 +5,7 @@ class D
     public static void Blue()
     {
         Console.Write("Enter a string: ");
-        string s = Console.ReadLine() ?? "";
+        string s = Console.ReadLine();
 
         StringBuilder sb = new StringBuilder();
 

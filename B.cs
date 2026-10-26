@@ -1,8 +1,8 @@
-using System;
+
 
 class B
 {
-    public static void hello()
+    public static void Hello()
     {
         Console.Write("Enter a year: ");
         int year = Convert.ToInt32(Console.ReadLine());

@@ -1,5 +1,4 @@
 
-using System;
 class C
 {
     public static void Pink()

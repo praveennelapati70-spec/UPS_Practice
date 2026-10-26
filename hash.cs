@@ -1,6 +1,6 @@
 
 using System;
-using System.Collections;
+using System.Collections.Generic;
 
 class V
 {
@@ -9,7 +9,7 @@ class V
         Console.Write("Enter the size: ");
         int n = Convert.ToInt32(Console.ReadLine());
 
-        Hashtable red = new Hashtable();
+        Dictionary<int ,int > red = new Dictionary<int, int>();
 
         for (int i = 0; i < n; i++)
         {
@@ -17,9 +17,10 @@ class V
             int key = Convert.ToInt32(Console.ReadLine());
 
             Console.Write("Enter the value: ");
-            string value = Console.ReadLine();
-
-            red[key] = value;
+            int value = Convert.ToInt32(Console.ReadLine());
+              
+              red.Add(key,value);
+            
         }
 
         if (red.ContainsKey(2))
@@ -27,7 +28,7 @@ class V
             red.Remove(2);
         }
 
-        foreach (DictionaryEntry v in red)
+        foreach (KeyValuePair<int,int>  v in red)
         {
             Console.WriteLine(v.Key + " : " + v.Value);
         }

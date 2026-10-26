@@ -1,19 +1,11 @@
-using System.Data;
-
-class A
+using System;
+class Program
 {
     static void Main()
     {
-       Console.WriteLine("Enter the number");
-       int N=Convert.ToInt32(Console.ReadLine());
-        int sum=0;
-        do
-        {  int d=N%10;
-           sum+=d;
-           N/=10; 
-        }while(N!=0);
-        Console.WriteLine(sum);
-       
+        Developer t = new Developer();
+
+        t.DisplayEmployee();
+        t.DisplayManager();
     }
-     
 }
